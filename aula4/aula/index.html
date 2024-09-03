@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .alerta {
+        color: red;
+        font-size: 11.5px;
+        margin: 2px 0px 10px 0px;
+        }
+
+        .alerta-geral {
+            background-color: darkkhaki;
+            color: red;
+            border-radius: 2px;
+            font-size: 1.5em;
+        }
+
+        .hidden{
+            display: none;
+        }
+
+        .visible{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <p class="alerta-geral hidden">Texto</p>
+        Nome: <input type="text" name="nome" id="nome"><br>
+        <p class="alerta alerta-nome"></p>
+        Idade: <input type="text" name="idade" id="idade"><br>
+        <p class="alerta alerta-idade"></p>
+        Sexo: <select name="sexo" id="sexo">
+                <option value="">Sexo</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                </select><br>
+        <p class="alerta alerta-sexo"></p>
+        CPF: <input type="text" name="cpf" id="cpf"><br>
+        <p class="alerta alerta-cpf"></p>
+    
+    <input type="button" id="btnInserir" value="Inserir"> <br>
+
+    <textarea name="resultado" id="resultado"> </textarea>
+    </form>
+
+    <script src="script1.js" ></script>
+</body>
+</html>
