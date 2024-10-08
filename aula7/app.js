@@ -1,4 +1,4 @@
-let pessoas = {
+/* let pessoas = {
     'cpf' : '222222222',
     'nome' : 'Joao',
     'idade' : 34,
@@ -8,7 +8,7 @@ let pessoas = {
         'PHP', 'JS', 'C#'
     ]
 }
-
+ */
 
 
 let arrayPessoa = [
@@ -73,7 +73,25 @@ let arrayPessoa = [
  verifMenorIdade = true;
 
 
- arrayPessoa.forEach((pessoa) => {
+
+
+
+
+
+
+ const funcSomaSalarios = (dadosPessoa) => {
+    dadosPessoa.forEach((pessoa) => {
+        somaSalario += pessoa.salario;
+    })
+
+    return somaSalario;
+ }
+
+
+ console.log(funcSomaSalarios(arrayPessoa));
+
+
+ /* arrayPessoa.forEach((pessoa) => {
 
     somaSalario = somaSalario + pessoa.salario;
 
@@ -130,3 +148,4 @@ let arrayPessoa = [
     console.log(pessoa.nome+" salário: "+pessoa.salario+" teve um ajuste de salário de 15 % que equivale a: "+(parseFloat(pessoa.salario)*1.15));
  })
 
+ */

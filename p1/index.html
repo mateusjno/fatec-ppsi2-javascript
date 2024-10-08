@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustível</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        padding-top: 60px;
+        font-size: 2em;
+    }
+    label{
+        text-align: right;
+    }
+    input{
+        padding: 20px;
+        font-size: 1em;
+    }
+    .adv{
+        font-size: 0.6em;
+    }
+    .vermelho{
+        color: red;
+    }
+    .verde {
+        color: green;
+    }
+    .backgroundCorVerde{
+        background-color: green;
+    }
+    .backgroundCorVermelha{
+        background-color: red;
+    }
+</style>
+<body>
+
+    <form action="">
+        <label for="">Valor do Litro do Álcool: </label><input type="text" id="alcool"><br>
+        <p class="alerta-alcool adv"></p><br>
+
+        <label for="">Valor do Litro da Gasolina: </label><input type="text" id="gasolina"><br>
+        <p class="alerta-gasolina adv"></p><br>
+        <input type="button" value="Verificar" id="verificar">
+
+        <p class="resultadoClasse"></p>
+    </form>
+
+</body>
+<script src="script.js"></script>
+</html>
