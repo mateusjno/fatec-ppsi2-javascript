@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        text-align: center;
+    }
+    table, td, tr{
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <!-- Campo para nome -->
+    <p>Nome: </p>
+    <input type="text" id="nome">
+
+    <!-- Campo para idade -->
+    <p>Idade: </p>
+    <input type="text" id="idade">
+
+    <!-- Campo para salário -->
+    <p>Salario: </p>
+    <input type="text" id="salario">
+
+    <!-- Campo para seleção se possui faculdade -->
+    <p>Possui faculdade?</p>
+    <select name="faculdade" id="faculdade">
+        <option value="">Selecione uma opção</option>
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+    </select>
+    <br><br>
+    
+    <!-- Botões para ações: Gravar, Limpar e Mostrar -->
+    <input id="gravar" type="button" value="Gravar">
+    <input id="limpar" type="button" value="Limpar"> <br> <br>
+
+    <input id="mostrar" type="button" value="Mostrar"> <br> <br>
+
+    <!-- Tabela onde os dados serão exibidos -->
+    <table id="tabela">
+        
+    </table>
+
+</body>
+<script src="script.js"></script>
+</html>
