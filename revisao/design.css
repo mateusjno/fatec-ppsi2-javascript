@@ -1,0 +1,29 @@
+.titulo{
+    text-align: center;
+    font: weight;
+    border: solid 1px;
+    background-color: rgb(184, 243, 89);
+}
+.titulo1{
+    text-align: center;
+}
+.corpo{
+    margin-top: 20px;
+}
+.cabecalho{
+    border: solid 1px;
+    background-color: rgb(184, 243, 89);
+    text-align: center;
+}
+.enviar{
+    background-color: rgb(128, 202, 9);
+}
+.celula{
+    border: solid 1px;
+
+}
+.tabela{
+    margin-right: 30px;
+    border: solid 2px;
+    text-align: center;
+}
